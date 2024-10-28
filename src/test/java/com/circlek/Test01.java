@@ -12,7 +12,7 @@ public class Test01 {
 
     //CODE REVIEW_
     @Test
-    public void assertTextOnPage(){
+    public void assertTextOnPage() {
         System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://circlek-public.github.io/cki-service-recruitment-task/");
@@ -27,7 +27,7 @@ public class Test01 {
     }
 
     @Test
-    public void checkRememberMeCheckBox(){
+    public void checkRememberMeCheckBox() {
         System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://circlek-public.github.io/cki-service-recruitment-task/");
